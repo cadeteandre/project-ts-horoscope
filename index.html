@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project TS Horoskop</title>
+  </head>
+  <body>
+    <div id="app">
+      <p>Please enter the first letters of the month you were born (e.g: Oct)</p>
+      <form onsubmit="return false">
+        <input type="text" name="month" id="inputMonth">
+        <button type="button" class="showBtn">Show</button>
+      </form>
+      <section id="showResults"></section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
